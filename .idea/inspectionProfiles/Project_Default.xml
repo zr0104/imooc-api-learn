@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="config.read_email_config.smtp_server" />
+          <option value="config.read_email_config.port" />
+          <option value="config.read_email_config.user_name" />
+          <option value="config.read_email_config.password" />
+          <option value="config.read_email_config.sender" />
+          <option value="config.read_email_config.receiver" />
+          <option value="common.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

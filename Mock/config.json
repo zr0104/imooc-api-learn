@@ -1,0 +1,37 @@
+[
+    {
+    "request":
+        {
+            "method":"post",
+            "uri":"/login"
+        },
+    "response":
+        {
+            "json":{
+                "user":"11111",
+                "pass":"22222",
+                "message":"this is test"
+            }
+        }
+    },
+    {
+    "request":
+        {
+            "uri":"/register"
+        },
+    "response":
+        {
+            "text":"Senregister"
+        }
+    },
+    {
+    "request":
+        {
+            "uri":"/loginout"
+        },
+    "response":
+        {
+            "text":"Senloginout"
+        }
+    }
+]
