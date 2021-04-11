@@ -4,7 +4,7 @@ import sys
 #sys.path.append(os.getcwd())
 import unittest
 
-case_path = os.getcwd()+"/UnittestCase/"
+case_path = os.getcwd()
 print(case_path)
 
 '''
