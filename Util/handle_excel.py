@@ -25,7 +25,7 @@ class HandExcel:
         data = self.load_excel()[sheet_name[index]]
         return data
 
-    def get_cell_value(self):
+    def get_cell_value(self,row,cols):
         '''
         获取某一个单元格内容
         '''
@@ -93,9 +93,11 @@ class HandExcel:
 
         return data_list
 
+
 excel_data = HandExcel()
 
 if __name__ == '__main__':
     handle = HandExcel()
     ##print(handle.get_rows_number('imooc_001')
-    print(handle.get_excel_data())
+    #print(handle.get_excel_data())
+    handle.excel_write_data(2,13,"通过")
