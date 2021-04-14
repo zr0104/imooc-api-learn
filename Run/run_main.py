@@ -12,6 +12,7 @@ from Util.handle_result import handle_result,handle_result_json,get_result_json
 from Base.base_request import request
 from Util.handle_cookie import write_cookie,get_cookie_value
 from Util.handle_header import get_header
+from Util.codition_data import get_data
 
 #['imooc_001', '登陆', 'yes', None, 'login', 'post', '{"username":"111111"}', 'yes', 'message', None]
 class RunMain:
@@ -25,13 +26,25 @@ class RunMain:
             data = excel_data.get_rows_value(i+2)
             is_run = data[2]
             if is_run == 'yes':
+                is_depend = data[3]
+                data1 = json.loads(data[7])
+                print(data1)
+                if is_depend:
+                    '''
+                    获取依赖数据(前置条件)
+                    '''
+                    depend_key = data[4]    #需要更新的依赖key_id
+                    print("更新key数据key_id-----<>",depend_key)
+                    depend_data = get_data(is_depend)    #依赖前置分出res_data和rule_data
+                    print("main依赖结果集------>>>>",depend_data)
+                    data1[depend_key] = depend_data
+
                 method = data[6]
                 url = data[5]
-                data1 = data[7]
-                cookie_method =data[8]
                 is_header = data[9]
                 excepect_method = data[10]
                 excepect_result = data[11]
+                cookie_method =data[8]
                 if cookie_method == 'yes':
                     cookie = get_cookie_value('app')
                 if cookie_method == 'write':
@@ -42,7 +55,7 @@ class RunMain:
                 if is_header == 'yes':
                     header = get_header()
                 res = request.run_main(method,url,data1,cookie,get_cookie,header)
-                print(res)
+                #print(res)
                 code = str(res['errorCode'])
                 #print(code)
                 message = res['errorDesc']
@@ -50,12 +63,14 @@ class RunMain:
                     config_message = handle_result(url,code)
                     if message == config_message:
                         excel_data.excel_write_data(i+2,13,"通过")
+                        excel_data.excel_write_data(i+2,14, json.dumps(res))
                     else:
                         excel_data.excel_write_data(i+2,13,"失败")
                         excel_data.excel_write_data(i+2,14,json.dumps(res))
                 if excepect_method == 'errorCode':
                     if excepect_result == code:
                         excel_data.excel_write_data(i+2,13,"通过")
+                        excel_data.excel_write_data(i+2,14, json.dumps(res))
                     else:
                         excel_data.excel_write_data(i+2,13, "失败")
                         excel_data.excel_write_data(i+2,14, json.dumps(res))
@@ -68,6 +83,7 @@ class RunMain:
                     result = handle_result_json(res,excepect_result)
                     if result:
                         excel_data.excel_write_data(i+2,13,"通过")
+                        excel_data.excel_write_data(i+2,14, json.dumps(res))
                     else:
                         excel_data.excel_write_data(i+2,13, "失败")
                         excel_data.excel_write_data(i+2,14, json.dumps(res))

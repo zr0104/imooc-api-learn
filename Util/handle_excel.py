@@ -90,7 +90,6 @@ class HandExcel:
         data_list = []
         for i in range(self.get_rows()):
             data_list.append(self.get_rows_value(i+2))
-
         return data_list
 
 
@@ -100,4 +99,6 @@ if __name__ == '__main__':
     handle = HandExcel()
     ##print(handle.get_rows_number('imooc_001')
     #print(handle.get_excel_data())
-    handle.excel_write_data(2,13,"通过")
+    #print(handle.get_columns_value('A'))
+    print(handle.get_rows_number('imooc_001'))
+    print(handle.get_rows_value(3))
