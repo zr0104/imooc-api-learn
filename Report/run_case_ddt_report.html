@@ -333,9 +333,9 @@ function hide_img(obj){
 </div>
 <div class='heading'>
 <h1>sen_test_report</h1>
-<p class='attribute'><strong>开始时间:</strong> 2021-04-14 17:30:23</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:02.813379</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>8 <span class="tj failCase">Failure</span>2</p>
+<p class='attribute'><strong>开始时间:</strong> 2021-04-15 20:05:43</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:02.902906</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>3 <span class="tj errorCase">Error</span>7</p>
 
 <p class='description'>senzrp</p>
 </div>
@@ -366,39 +366,38 @@ function hide_img(obj){
     <th>错误截图</th>
 </tr>
 
-<tr class='failClass'>
+<tr class='errorClass'>
     <td>run_case_ddt.TestCaseDdt</td>
     <td>10</td>
-    <td>8</td>
-    <td>2</td>
+    <td>3</td>
     <td>0</td>
+    <td>7</td>
     <td><a href="javascript:showClassDetail('c1',10)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td><div class='testcase'>test_main_case_01___imooc_001____获取广告位____yes___None__None___api3_getbanneradvertver2____post______username___111111______yes____yes____mec___None_____status___1___data________errorCode___1006___errorDesc____token_error____timestamp___1618391003661____None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
-    <td>无截图</td>
-</tr>
-
-<tr id='pt1.2' class='hiddenRow'>
-    <td ><div class='testcase'>test_main_case_02___imooc_002____测试____yes____imooc_007_status____id____api3_beta4____post______username___111113___coursename___test___orderid___123___id___123______no____no____errorCode____8001______status___1___data________errorCode___8001___errorDesc______u8bf7__u5347__u7ea7app__u7248__u672c____timestamp___1618391004055____None_</div></td>
+<tr id='ft1.1' class='none'>
+    <td ><div class='testcase'>test_main_case_01___imooc_001____CRM获取ssesionId____yes___None__None___http___test_passport_be_lvdatong_com_sso_login____post_____B_Dd_3iw6TX_aoPg_bg40Y3epe7fWj6hI6heq_fpWPHUSLHantqFdh88HPfHGC7En71QWlY8bqCrhZRjpbLspK_i0bZZveDrkTYiFWYjUV2Vlf7S4cTPQ5_eZKJ55zlKLLHIuAhHXLF8X6JOpm3jOFy9DhdT8jSqtzXS9HzRVySXtHHli5_hrtjbWkxc0en2Aq17EaLZjAqUCqrcZJC472irCI0h2sJ6dOSUDUSJvDYUK5FB8xGWIFxhQtk3nPuy0R202OfqUlcLNCLJ6vYvJiKqVhNTxFtlnAnI0MrF3VeWUrEj1XQl65DryujkA9ivpXwIkCQzk_tcy1fU_fiU_w_______yes____yes____json____0____失败______code____0____msg____OK____result_____sessionId____A3A7AE14DE1B4DCC9F41B0137605AF7D____isLogined___1____</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <span class='status passCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        通过</a></span>
-    <div id='div_pt1.2' class="popup_window">
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a></span>
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.2: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; imooc_007 status
-依赖excel单元格数据---&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;--- None
-拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; imooc_007 status
+ft1.1: Traceback (most recent call last):
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\venv\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 126, in test_main_case
+    raise e
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 62, in test_main_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
 
 
         </pre>
@@ -408,24 +407,65 @@ pt1.2: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; imooc_007 status
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td ><div class='testcase'>test_main_case_03___imooc_003____新课程____yes____imooc_007_id____id____api3_newcourseskill____post______username___111113___coursename___test___orderid___123___id___123______write____no____json___None_____status___1___data________errorCode___1006___errorDesc____token_error____timestamp___1618391004434____None_</div></td>
+<tr id='ft1.2' class='none'>
+    <td ><div class='testcase'>test_main_case_02___imooc_002____CRM获取Ticket____yes_______imooc_001_result__0__sessionId__________sessionId_______http___test_passport_be_lvdatong_com_sso_generateTicket____post______sessionId___A945D8C5DB5C40A9B7E02025FD019DD1______no____yes____json____0___None__None_</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <span class='status passCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
-        通过</a></span>
-    <div id='div_pt1.3' class="popup_window">
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        错误</a></span>
+    <div id='div_ft1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.3: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; imooc_007 id
+ft1.2: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_001 result.[0].sessionId"}]
 依赖excel单元格数据---&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;--- None
-拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; imooc_007 id
-{'type_changes': {"root['data']": {'old_type': &lt;class 'list'&gt;, 'new_type': &lt;class 'str'&gt;, 'old_value': [], 'new_value': ''}}, 'values_changed': {"root['status']": {'new_value': 0, 'old_value': 1}, "root['errorCode']": {'new_value': 1002, 'old_value': 1006}, "root['errorDesc']": {'new_value': '成功', 'old_value': 'token error'}, "root['timestamp']": {'new_value': 0, 'old_value': 1618392622343}}}
+拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_001 result.[0].sessionId"}]
+Traceback (most recent call last):
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\venv\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 126, in test_main_case
+    raise e
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 62, in test_main_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td ><div class='testcase'>test_main_case_03___imooc_003____登录CRM__n并获取Token____yes_______imooc_002_ticket__________ticket_______security_getToken____post______ticket___31665B2467894A12828B344A8BF9D9E1___uuid___7AFB168808830937301452C2DFDC2929______write____yes____json____0___None__None_</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        错误</a></span>
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_002 ticket"}]
+依赖excel单元格数据---&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;--- None
+拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_002 ticket"}]
+Traceback (most recent call last):
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\venv\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 126, in test_main_case
+    raise e
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 62, in test_main_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
 
 
         </pre>
@@ -436,12 +476,12 @@ pt1.3: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; imooc_007 id
 </tr>
 
 <tr id='ft1.4' class='none'>
-    <td ><div class='testcase'>test_main_case_04___imooc_004____评价____yes___None__None___api3_getdownrecommend____post______username___111114______no____no____json___None___失败___None_</div></td>
+    <td ><div class='testcase'>test_main_case_04___imooc_004____新增用户____yes___None__None___customer_addCustomer____post______n_customerId______n_name___TEST法务咨询有限公司00188___n_shortName______n_cusSource___2___n_cusType___1___n_license___123565656550088___n_province__3624__n_city__3677__n_district__3685__n_address___详细地址详细地址详细地址888___n_legalPerson______n_businessScope______n_tradeId______n_employees______n_phone______n_email______n_fax______n_remark______n_customerContacts_____contactId______contactName___Sen88___sex___1___mobile___13246889988___job______dept______position______telephone______qq______email______wechat______type___1___contactRole___2_____n_customerParticipants______n_type___0___n_companyType______n_website______n_registeredCapital______n_anotherPhone______n_refereeMobile______n_masterMobile_____n_____no____yes____json____0___None__None_</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <span class='status failCase'>
+    <span class='status errorCase'>
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
-        失败</a></span>
+        错误</a></span>
     <div id='div_ft1.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
         <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
@@ -452,13 +492,11 @@ pt1.3: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; imooc_007 id
 ft1.4: Traceback (most recent call last):
   File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\venv\lib\site-packages\ddt.py", line 182, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 127, in test_main_case
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 126, in test_main_case
     raise e
-  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 123, in test_main_case
-    raise e
-  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 118, in test_main_case
-    self.assertTrue(result)
-AssertionError: False is not true
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 62, in test_main_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
 
 
         </pre>
@@ -468,21 +506,31 @@ AssertionError: False is not true
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.5' class='hiddenRow'>
-    <td ><div class='testcase'>test_main_case_05___imooc_005____课程信息____yes___None__None___api3_getcourseintro____post______username___111115______no____no____json___None_____status___1___data________errorCode___1006___errorDesc____token_error____timestamp___1618391004967____None_</div></td>
+<tr id='ft1.5' class='none'>
+    <td ><div class='testcase'>test_main_case_05___imooc_005____客户详情____yes_______imooc_004_result__________customerId_______customer_detail____post______customerId___1111______no____yes____json____0___None__None_</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <span class='status passCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
-        通过</a></span>
-    <div id='div_pt1.5' class="popup_window">
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
+        错误</a></span>
+    <div id='div_ft1.5' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.5: {'type_changes': {"root['data']": {'old_type': &lt;class 'list'&gt;, 'new_type': &lt;class 'str'&gt;, 'old_value': [], 'new_value': ''}}, 'values_changed': {"root['status']": {'new_value': 0, 'old_value': 1}, "root['errorCode']": {'new_value': 1002, 'old_value': 1006}, "root['errorDesc']": {'new_value': '成功', 'old_value': 'token error'}, "root['timestamp']": {'new_value': 0, 'old_value': 1618392622865}}}
+ft1.5: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_004 result"}]
+依赖excel单元格数据---&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;--- None
+拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_004 result"}]
+Traceback (most recent call last):
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\venv\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 126, in test_main_case
+    raise e
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 62, in test_main_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
 
 
         </pre>
@@ -492,21 +540,28 @@ pt1.5: {'type_changes': {"root['data']": {'old_type': &lt;class 'list'&gt;, 'new
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.6' class='hiddenRow'>
-    <td ><div class='testcase'>test_main_case_06___imooc_006____播放列表____yes___None__None___api3_getmedialist____post______username___111116______no____no____json___None_____status___1___data________errorCode___1006___errorDesc____token_error____timestamp___1618391005276____None_</div></td>
+<tr id='ft1.6' class='none'>
+    <td ><div class='testcase'>test_main_case_06___imooc_006____新建订单前选择套餐____yes___None__None___productSet_selectAllProductSet____get___None___no____yes____json____0___None__None_</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <span class='status passCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
-        通过</a></span>
-    <div id='div_pt1.6' class="popup_window">
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.6')" >
+        错误</a></span>
+    <div id='div_ft1.6' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.6').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.6: {'type_changes': {"root['data']": {'old_type': &lt;class 'list'&gt;, 'new_type': &lt;class 'str'&gt;, 'old_value': [], 'new_value': ''}}, 'values_changed': {"root['status']": {'new_value': 0, 'old_value': 1}, "root['errorCode']": {'new_value': 1002, 'old_value': 1006}, "root['errorDesc']": {'new_value': '成功', 'old_value': 'token error'}, "root['timestamp']": {'new_value': 0, 'old_value': 1618392623179}}}
+ft1.6: Traceback (most recent call last):
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\venv\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 35, in test_main_case
+    data1 = json.loads(data[7])
+  File "D:\Program Files\python3.8\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
 
 
         </pre>
@@ -517,12 +572,12 @@ pt1.6: {'type_changes': {"root['data']": {'old_type': &lt;class 'list'&gt;, 'new
 </tr>
 
 <tr id='ft1.7' class='none'>
-    <td ><div class='testcase'>test_main_case_07___imooc_007____课程列表____yes___None__None___api3_courselistinfo____post______username___111117___coursename___test___orderid___1237___id___1237______no____no____json___None___失败___None_</div></td>
+    <td ><div class='testcase'>test_main_case_07___imooc_007____新建订单____yes_______imooc_005_result_creatorPhone_____imooc_004_result_____imooc_006_result__0__id__________mobile_____customerId_____productSetId_______order_create____post______n_mobile___13246889988___n_customerId___112223322___n_productSetId___123456666___n_contractCode______n_contractDate___2021_1_13___n_bonusMonth__3__n_contractAttachments______n_investigationAttachments______n_enterpriseAttachments______n_licenseAttachments______n_contractPayDate______n_downPayment______n_certificateType______n_paymentAttachments______n_photos______n_paymentMethod___1___n_stageInfos__null__n_remark___订单备注订单备注订单备注___n_orderType___0___n_sourceUserId__2872__n_gifts_____productId__176__amount___101___unlimitAmount__0____n_giftAttachments_____attachmentId__112563__filePath___http___test_admin_be_lvdatong_com_upload_show_path_4c703dc4_964f_4b8a_a0a7_3c3e5ee8b2f0_jpg_uploadType_PRIVATE____n_____no____yes____json____0___None__None_</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <span class='status failCase'>
+    <span class='status errorCase'>
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.7')" >
-        失败</a></span>
+        错误</a></span>
     <div id='div_ft1.7' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
         <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.7').style.display = 'none' " >
@@ -530,16 +585,17 @@ pt1.6: {'type_changes': {"root['data']": {'old_type': &lt;class 'list'&gt;, 'new
         </div>
         <pre>
         
-ft1.7: Traceback (most recent call last):
+ft1.7: 拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_005 result.creatorPhone"},{"imooc_004
+依赖excel单元格数据---&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;--- None
+拆分前置规则-----&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt; [{"imooc_005 result.creatorPhone"},{"imooc_004
+Traceback (most recent call last):
   File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\venv\lib\site-packages\ddt.py", line 182, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 127, in test_main_case
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 126, in test_main_case
     raise e
-  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 123, in test_main_case
-    raise e
-  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 118, in test_main_case
-    self.assertTrue(result)
-AssertionError: False is not true
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\Run\run_case_ddt.py", line 62, in test_main_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
 
 
         </pre>
@@ -570,16 +626,16 @@ AssertionError: False is not true
 <tr id='total_row'>
     <th>统计</th>
     <th>10</th>
-    <th>8</th>
-    <th>2</th>
+    <th>3</th>
     <th>0</th>
+    <th>7</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
 </tr>
 </table>
 <script>
     showCase(1);
-    drawCircle(8, 2, 0);
+    drawCircle(3, 0, 7);
 </script>
 
 <div id='ending'>&nbsp;</div>

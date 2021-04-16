@@ -33,13 +33,14 @@ def get_depend_data(res_data,key):
     获取依赖数据下某一字段
     '''
     if res_data:
-        #res_data = json.loads(res_data)
+        res_data = json.loads(res_data)
+        print("......res_data>>>>>>>",res_data)
         json_exe = parse(key)
         madle = json_exe.find(res_data)
         if madle:
             return [math.value for math in madle][0]
         else:
-            print("字段为空[]")
+            print("madle为空[]")
         #print("依赖结果集下某一个字段---->--->--->",[math.value for math in madle][0])
 
 def get_data(data):

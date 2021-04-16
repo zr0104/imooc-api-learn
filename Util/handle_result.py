@@ -55,4 +55,4 @@ if __name__ == '__main__':
     dict1={"aaa":"AAA","bbb":"BBBB","aaa3":"A1A","CC":[{"11":"111"},{"33":"44"}]}
     #print(handle_result('api3/getbanneradvertver2',"1006"))
     #print(handle_result_json(dict1,dict2))
-    print(get_result_json("api3/newcourseskill","error"))
+    print(get_result_json("http://test.passport.be.lvdatong.com/sso/login","code"))

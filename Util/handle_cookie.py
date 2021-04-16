@@ -26,6 +26,6 @@ def write_cookie(data,cookie_key):
 
 if __name__ == '__main__':
     data = {
-        "apsid":"1111111111111111%3DZj"
+        "apsid":"A945D8C5DB5C40A9B7E02025FD019DD1"
     }
-    print(write_cookie(data,'app'))
+    print(write_cookie(data,'web'))

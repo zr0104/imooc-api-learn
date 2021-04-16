@@ -98,7 +98,6 @@ class TestCaseDdt(unittest.TestCase):
                             excel_data.excel_write_data(i,13,"失败")
                             raise e
 
-
                     if excepect_method == 'json':
                         if code == 1000:
                             status_str='sucess'
@@ -136,3 +135,4 @@ if __name__ == '__main__':
     with open(report_path,"wb") as f:
         runner = HTMLTestRunner.HTMLTestRunner(stream=f,title="sen_test_report",description="senzrp")
         runner.run(discover)
+    f.close()

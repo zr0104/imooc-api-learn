@@ -26,18 +26,24 @@ class RunMain:
             data = excel_data.get_rows_value(i+2)
             is_run = data[2]
             if is_run == 'yes':
-                is_depend = data[3]
-                data1 = json.loads(data[7])
-                print(data1)
-                if is_depend:
+                if data:
+                    #data1 = json.loads(data[7])
+                    data1 = eval(data[7])
+                    print("-----data1值---", data1, type(data1))
+                if data[3] and data[4]:
+                    is_depend = data[3]
+                    depend_key = data[4]  #需要更新的依赖key_id
+                    print(">>>>---依赖is,key-<<<<<<",is_depend,depend_key,type(is_depend),type(depend_key))
                     '''
                     获取依赖数据(前置条件)
                     '''
-                    depend_key = data[4]    #需要更新的依赖key_id
-                    print("更新key数据key_id-----<>",depend_key)
-                    depend_data = get_data(is_depend)    #依赖前置分出res_data和rule_data
-                    print("main依赖结果集------>>>>",depend_data)
-                    data1[depend_key] = depend_data
+                    for s in range(len(is_depend)):
+                        data_value = list(is_depend[s])[0]
+                        depend_data = get_data(data_value)   #依赖前置分出res_data和rule_data
+                        print(">>>>>depend_data<<<<<",depend_data)
+                        data_value_key = list(depend_key[s])[0]
+                        data1[data_value_key] = depend_data
+                        print("<<<<<<data1更新后的值>>>",data1[data_value_key])
 
                 method = data[6]
                 url = data[5]
@@ -56,9 +62,11 @@ class RunMain:
                     header = get_header()
                 res = request.run_main(method,url,data1,cookie,get_cookie,header)
                 #print(res)
-                code = str(res['errorCode'])
+                print("-------<<<<<<res>>>>>>----",res)
+                code = str(res['code'])
+                print("-----code-----",code)
                 #print(code)
-                message = res['errorDesc']
+                message = str(res['msg'])
                 if excepect_method == 'mec':
                     config_message = handle_result(url,code)
                     if message == config_message:
@@ -75,12 +83,13 @@ class RunMain:
                         excel_data.excel_write_data(i+2,13, "失败")
                         excel_data.excel_write_data(i+2,14, json.dumps(res))
                 if excepect_method == 'json':
-                    if code == 1000:
+                    if code == 0:
                         status_str='sucess'
                     else:
                         status_str='error'
                     excepect_result = get_result_json(url,status_str)
                     result = handle_result_json(res,excepect_result)
+                    #print("-----格式》》》",excepect_result,result)
                     if result:
                         excel_data.excel_write_data(i+2,13,"通过")
                         excel_data.excel_write_data(i+2,14, json.dumps(res))

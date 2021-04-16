@@ -1,17 +1,37 @@
 {
-  "api3/getbanneradvertver2":[
-    {"1006":"token error"},
-    {"1006":"用户名错误"},
-    {"1006":"密码错误"}
+  "http://test.passport.be.lvdatong.com/sso/login":[
+    {"0":"take ssesionId"},
+    {"00001":"接口验证入参数据失败"},
+    {"00002":"失败"}
   ],
-  "api3/beta4":[
-    {"1006":"登陆成功"},
-    {"1006":"用户名错误"},
-    {"1006":"密码错误"}
+  "http://test.passport.be.lvdatong.com/sso/generateTicket":[
+    {"0":"take Ticket"},
+    {"00001":"接口验证入参数据失败"},
+    {"00002":"失败"}
   ],
-  "api3/getcourseintro":[
-    {"1006":"token error"},
-    {"10001":"用户名错误"},
-    {"10002":"密码错误"}
+  "security/getToken":[
+    {"0":"登录成功"},
+    {"00001":"接口验证入参数据失败"},
+    {"00002":"失败"}
+  ],
+  "customer/addCustomer":[
+    {"0":"新增用户成功"},
+    {"00001":"接口验证入参数据失败"},
+    {"00002":"失败"}
+  ],
+  "customer/detail":[
+    {"0":"take userdetail"},
+    {"00001":"接口验证入参数据失败"},
+    {"00002":"失败"}
+  ],
+  "productSet/selectAllProductSet":[
+    {"0":"take product"},
+    {"00001":"接口验证入参数据失败"},
+    {"00002":"失败"}
+  ],
+  "order/create":[
+    {"0":"create order"},
+    {"00001":"接口验证入参数据失败"},
+    {"00002":"失败"}
   ]
 }
