@@ -125,6 +125,7 @@ class TestCaseDdt(unittest.TestCase):
                     excel_data.excel_write_data(i,13,"失败")
                     raise e
 
+
 if __name__ == '__main__':
     # run = TestCaseDdt()
     # run.test_main_case(data)
@@ -133,6 +134,6 @@ if __name__ == '__main__':
     discover = unittest.defaultTestLoader.discover(case_path,pattern="run_case_*.py")
     #unittest.TextTestRunner().run(discover)
     with open(report_path,"wb") as f:
-        runner = HTMLTestRunner.HTMLTestRunner(stream=f,title="sen_test_report",description="senzrp")
+        runner = HTMLTestRunner.HTMLTestRunner(stream=f,title="sen接口自动化测试报告",description="senzrp")
         runner.run(discover)
     f.close()

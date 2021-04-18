@@ -1,37 +1,14 @@
 {
-  "http://test.passport.be.lvdatong.com/sso/login":[
-    {"0":"take ssesionId"},
-    {"00001":"接口验证入参数据失败"},
-    {"00002":"失败"}
-  ],
-  "http://test.passport.be.lvdatong.com/sso/generateTicket":[
-    {"0":"take Ticket"},
-    {"00001":"接口验证入参数据失败"},
-    {"00002":"失败"}
-  ],
-  "security/getToken":[
-    {"0":"登录成功"},
-    {"00001":"接口验证入参数据失败"},
-    {"00002":"失败"}
-  ],
-  "customer/addCustomer":[
-    {"0":"新增用户成功"},
-    {"00001":"接口验证入参数据失败"},
-    {"00002":"失败"}
-  ],
-  "customer/detail":[
-    {"0":"take userdetail"},
-    {"00001":"接口验证入参数据失败"},
-    {"00002":"失败"}
-  ],
-  "productSet/selectAllProductSet":[
-    {"0":"take product"},
-    {"00001":"接口验证入参数据失败"},
-    {"00002":"失败"}
-  ],
-  "order/create":[
-    {"0":"create order"},
-    {"00001":"接口验证入参数据失败"},
-    {"00002":"失败"}
+  "security/commonLogin":[
+    {
+      "userAccount":"13246821387",
+      "password":"Bzv5xe6R1qmieqHhFFZEi0ejgiDKbx7EWQaVEoNxINDnFSmxP/MyduXT7z8kUCxGFF8F45ZrhMFuA6CiNkkg35ItZyxgKmN81Tt7Y0NvqScwApAc4Mu755RLBXrADTGETBokSx5i93R00aMnVbt6Z0k4VQvOVslep2UiovqxG+g62b/Eqqe9mLtklxP1jputBnDZB6Df4kpInLmt5w0vPi+yjDUY92HWgsaAvig++lzQzBmWHpYD76rn8H5zP1SP7LwthdbKIFMoUvklAfyaf6QwNi+htpx680ZiMwNUd1+3mfUnyyaSubt67nU0psLZCaAgKyQO7beVByFH1mwiBA==",
+      "rememberMe":0,
+      "unionId":"5339BE5A65585F1FB20BD85CF8470129",
+      "offline":false,
+      "challenge":"960a08c8a363fb47215f2a6712100bfe3b",
+      "validate":"05437ea02b07d14593ca6a4e17bad3ee",
+      "seccode":"05437ea02b07d14593ca6a4e17bad3ee|jordan"
+    }
   ]
 }

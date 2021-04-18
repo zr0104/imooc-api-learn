@@ -28,7 +28,7 @@ class RunMain:
             if is_run == 'yes':
                 if data:
                     #data1 = json.loads(data[7])
-                    data1 = eval(data[7])
+                    data1 = data[7]
                     print("-----data1值---", data1, type(data1))
                 if data[3] and data[4]:
                     is_depend = data[3]
@@ -61,12 +61,11 @@ class RunMain:
                 if is_header == 'yes':
                     header = get_header()
                 res = request.run_main(method,url,data1,cookie,get_cookie,header)
-                #print(res)
                 print("-------<<<<<<res>>>>>>----",res)
                 code = str(res['code'])
-                print("-----code-----",code)
-                #print(code)
+                print("-----str(code)-----",code)
                 message = str(res['msg'])
+                print("-----str(msg)-----", code)
                 if excepect_method == 'mec':
                     config_message = handle_result(url,code)
                     if message == config_message:
