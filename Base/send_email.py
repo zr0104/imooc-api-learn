@@ -49,7 +49,7 @@ if __name__ == '__main__':
     subject = "测试标题"
     mail_body = "测试本文"
     receiver = "sen88_8@163.com,984827201@qq.com,1120896945@qq.com"  # 接收人邮件地址 用逗号分隔
-    file_names = [r'E:\Sen\python\imooc-api-learn\Report\2021_04_17_17_02_53report.html']
+    file_names = [r'C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Report\2021_04_23_10_21_59report.html']
     send_email(subject, mail_body,file_names)
 
 

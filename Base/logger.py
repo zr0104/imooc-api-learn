@@ -15,12 +15,12 @@ class MyLogging:
         sh = logging.StreamHandler()  # 日志输出到屏幕控制台
         sh.setLevel(logging.INFO)  # 设置日志等级
 
-        fh = logging.FileHandler(filename=filename)  # 向文件filename输出日志信息
+        fh = logging.FileHandler(filename=filename,encoding='UTF-8')  # 向文件filename输出日志信息
         fh.setLevel(logging.INFO)  # 设置日志等级
 
         # 设置格式对象
         formatter = logging.Formatter(
-            "%(asctime)s %(filename)s[line:%(lineno)d]%(levername)s - %(message)s"
+            "%(asctime)s-%(filename)s-[line:%(lineno)d]-%(levelname)s - 日志信息：%(message)s"
         )  # 定义日志输出格式
 
         # 设置handler的格式对象

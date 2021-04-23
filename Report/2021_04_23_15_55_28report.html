@@ -333,9 +333,9 @@ function hide_img(obj){
 </div>
 <div class='heading'>
 <h1>Sen接口自动化测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2021-04-18 17:20:55</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:05.410317</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>8 <span class="tj errorCase">Error</span>2</p>
+<p class='attribute'><strong>开始时间:</strong> 2021-04-23 15:55:28</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:05.145288</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>1 <span class="tj errorCase">Error</span>27</p>
 
 <p class='description'>环境：window 10 浏览器：chrome</p>
 </div>
@@ -368,16 +368,16 @@ function hide_img(obj){
 
 <tr class='errorClass'>
     <td>test_run_ddt.TestRunMain</td>
-    <td>10</td>
-    <td>8</td>
+    <td>28</td>
+    <td>1</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',10)">详情</a></td>
+    <td>27</td>
+    <td><a href="javascript:showClassDetail('c1',28)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
 <tr id='ft1.1' class='none'>
-    <td ><div class='testcase'>testrun_case_01___imooc_001____登录交易平台____yes___None__None___security_commonLogin____post______userAccount___13246821387___password___Bzv5xe6R1qmieqHhFFZEi0ejgiDKbx7EWQaVEoNxINDnFSmxP_MyduXT7z8kUCxGFF8F45ZrhMFuA6CiNkkg35ItZyxgKmN81Tt7Y0NvqScwApAc4Mu755RLBXrADTGETBokSx5i93R00aMnVbt6Z0k4VQvOVslep2UiovqxG_g62b_Eqqe9mLtklxP1jputBnDZB6Df4kpInLmt5w0vPi_yjDUY92HWgsaAvig__lzQzBmWHpYD76rn8H5zP1SP7LwthdbKIFMoUvklAfyaf6QwNi_htpx680ZiMwNUd1_3mfUnyyaSubt67nU0psLZCaAgKyQO7beVByFH1mwiBA_____rememberMe__0__unionId___5339BE5A65585F1FB20BD85CF8470129___offline__false__challenge___960a08c8a363fb47215f2a6712100bfe3b___validate___05437ea02b07d14593ca6a4e17bad3ee___seccode___05437ea02b07d14593ca6a4e17bad3ee_jordan______yes____yes____json____0___None__None_</div></td>
+    <td ><div class='testcase'>testrun_case_01___wbxcx_001____企业体检_调查列表____yes___None__None____invest_list____post______n__id___0_n_____yes____yes____code____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___id____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_121ad947__line__1__column__4_____result___null___</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
     <span class='status errorCase'>
@@ -391,9 +391,9 @@ function hide_img(obj){
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "E:\Program Files\Python3.8.2\lib\site-packages\ddt.py", line 182, in wrapper
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
     return func(self, *args, **kwargs)
-  File "E:\Sen\python\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
     code = str(res['errorCode'])
 KeyError: 'errorCode'
 
@@ -406,7 +406,7 @@ KeyError: 'errorCode'
 </tr>
 
 <tr id='ft1.2' class='none'>
-    <td ><div class='testcase'>testrun_case_02___imooc_002____搜索商品_劳动个税纠纷____yes___None__None___search_product_list____post______pageNum__1__pageSize__20__queryWord___劳动个税纠纷___minPrice______maxPrice______sortBy______sortSeq______categoryIdList______productRegionId_________yes____yes____json____0___None__None_</div></td>
+    <td ><div class='testcase'>testrun_case_02___wbxcx_002____企业体检_调查分数____yes___None__None____invest_score____post______n__id___0__n__scoreReqDetailVos_____n____n____answer_______n____id___0_n____n___n_____yes____yes____code____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___id____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_5efb838b__line__1__column__4_____result___null___</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
     <span class='status errorCase'>
@@ -420,37 +420,11 @@ KeyError: 'errorCode'
         <pre>
         
 ft1.2: Traceback (most recent call last):
-  File "E:\Program Files\Python3.8.2\lib\site-packages\ddt.py", line 182, in wrapper
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
     return func(self, *args, **kwargs)
-  File "E:\Sen\python\imooc-api-learn\Run\test_run_ddt.py", line 53, in testrun_case
-    res = request.run_main(method, url, data1, cookie, get_cookie, header)
-  File "E:\Sen\python\imooc-api-learn\Base\base_request.py", line 56, in run_main
-    res = self.send_post(url,data,cookie,get_cookie,header)
-  File "E:\Sen\python\imooc-api-learn\Base\base_request.py", line 18, in send_post
-    response = requests.post(url=url,data=data,cookies=cookie,headers=header)
-  File "E:\Program Files\Python3.8.2\lib\site-packages\requests\api.py", line 119, in post
-    return request('post', url, data=data, json=json, **kwargs)
-  File "E:\Program Files\Python3.8.2\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "E:\Program Files\Python3.8.2\lib\site-packages\requests\sessions.py", line 542, in request
-    resp = self.send(prep, **send_kwargs)
-  File "E:\Program Files\Python3.8.2\lib\site-packages\requests\sessions.py", line 655, in send
-    r = adapter.send(request, **kwargs)
-  File "E:\Program Files\Python3.8.2\lib\site-packages\requests\adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "E:\Program Files\Python3.8.2\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
-    httplib_response = self._make_request(
-  File "E:\Program Files\Python3.8.2\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "E:\Program Files\Python3.8.2\lib\site-packages\urllib3\connection.py", line 234, in request
-    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
-  File "E:\Program Files\Python3.8.2\lib\http\client.py", line 1230, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "E:\Program Files\Python3.8.2\lib\http\client.py", line 1275, in _send_request
-    body = _encode(body, 'body')
-  File "E:\Program Files\Python3.8.2\lib\http\client.py", line 160, in _encode
-    raise UnicodeEncodeError(
-UnicodeEncodeError: 'latin-1' codec can't encode characters in position 40-45: Body ('劳动个税纠纷') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
 
 
         </pre>
@@ -460,67 +434,750 @@ UnicodeEncodeError: 'latin-1' codec can't encode characters in position 40-45: B
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_03__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
+<tr id='ft1.3' class='none'>
+    <td ><div class='testcase'>testrun_case_03___wbxcx_003____小程序_热点话题详情____yes___None__None____hotspot_detail____post______n__id___0_n_____yes____yes____code____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___id____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_779a3d80__line__1__column__4_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        错误</a></span>
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.4' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_04__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
+<tr id='ft1.4' class='none'>
+    <td ><div class='testcase'>testrun_case_04___wbxcx_004____小程序_热点话题列表____yes___None__None____hotspot_list____post______n__endDate_______n__orderBy_______n__pageNum___0__n__pageSize___0__n__show___0__n__sort_______n__startDate_______n__top___0__n__word______n_____yes____yes____code____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___endDate____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_5aae3551__line__1__column__9_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        错误</a></span>
+    <div id='div_ft1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.4: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.5' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_05__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
+<tr id='ft1.5' class='none'>
+    <td ><div class='testcase'>testrun_case_05___wbxcx_005____小程序_热点话题创建____yes___None__None____market_hotspot_create____post______n__attachmentId___0__n__content_______n__hotspot_______n__seq___0__n__theme_______n__top___0_n_____yes____yes____code____0____失败______timestamp___1619083992147___status___404___error____Not_Found____message____No_message_available____path_____market_hotspot_create____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
+        错误</a></span>
+    <div id='div_ft1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.5: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.6' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_06__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
+<tr id='ft1.6' class='none'>
+    <td ><div class='testcase'>testrun_case_06___wbxcx_006____小程序_热点话题详情____yes___None__None____market_hotspot_detail____post______n__id___0_n_____yes____yes____code____0____失败______timestamp___1619083992321___status___404___error____Not_Found____message____No_message_available____path_____market_hotspot_detail____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.6')" >
+        错误</a></span>
+    <div id='div_ft1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.6: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.7' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_07__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
+<tr id='ft1.7' class='none'>
+    <td ><div class='testcase'>testrun_case_07___wbxcx_007____小程序_热点话题编辑____yes___None__None____market_hotspot_edit____post______n__attachmentId___0__n__content_______n__hotspot_______n__id___0__n__seq___0__n__theme_______n__top___0_n_____yes____yes____code____0____失败______timestamp___1619083992468___status___404___error____Not_Found____message____No_message_available____path_____market_hotspot_edit____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.7')" >
+        错误</a></span>
+    <div id='div_ft1.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.7: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.8' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_08__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
+<tr id='ft1.8' class='none'>
+    <td ><div class='testcase'>testrun_case_08___wbxcx_008____小程序_热点话题列表____yes___None__None____market_hotspot_list____post______n__endDate_______n__orderBy_______n__pageNum___0__n__pageSize___0__n__show___0__n__sort_______n__startDate_______n__top___0__n__word______n_____yes____yes____code____0____失败______timestamp___1619083992618___status___404___error____Not_Found____message____No_message_available____path_____market_hotspot_list____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.8')" >
+        错误</a></span>
+    <div id='div_ft1.8' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.8: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.9' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_09__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
-    <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
+<tr id='ft1.9' class='none'>
+    <td ><div class='testcase'>testrun_case_09___wbxcx_009____小程序_热点话题显示____yes___None__None____market_hotspot_show____post______n__id___0__n__show___0_n_____yes____yes____code____0____失败______timestamp___1619083992773___status___404___error____Not_Found____message____No_message_available____path_____market_hotspot_show____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.9')" >
+        错误</a></span>
+    <div id='div_ft1.9' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.9: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
     <td>无截图</td>
 </tr>
 
-<tr id='pt1.10' class='hiddenRow'>
-    <td><div class='testcase'>testrun_case_10__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
+<tr id='ft1.10' class='none'>
+    <td ><div class='testcase'>testrun_case_10___wbxcx_010____CRM_广告分页列表____yes___None__None____ad_list____post______n__endDate_______n__orderBy_______n__pageNum___0__n__pageSize___0__n__rsa_______n__searchWord_______n__sign_______n__sort_______n__startDate_______n__status___0__n__type___0__n__userId4Service___0_n_____yes____yes____code____0____失败______timestamp___1619083992926___status___404___error____Not_Found____message____No_message_available____path_____ad_list____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.10')" >
+        错误</a></span>
+    <div id='div_ft1.10' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.10').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.10: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.11' class='none'>
+    <td ><div class='testcase'>testrun_case_11___wbxcx_011____CRM_新建广告____yes___None__None____ad_new____post______n__advertTitle_______n__advertType_______n__attachmentId___0__n__seq___0__n__url_______n__urlType______n_____yes____yes____code____0____失败______timestamp___1619083993083___status___404___error____Not_Found____message____No_message_available____path_____ad_new____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.11')" >
+        错误</a></span>
+    <div id='div_ft1.11' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.11').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.11: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.12' class='none'>
+    <td ><div class='testcase'>testrun_case_12___wbxcx_012____CRM_编辑广告____yes___None__None____ad_edit____post______n__adId___0__n__advertTitle_______n__advertType_______n__attachmentId___0__n__seq___0__n__url_______n__urlType______n_____yes____yes____json____0____失败______timestamp___1619083993242___status___404___error____Not_Found____message____No_message_available____path_____ad_edit____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.12')" >
+        错误</a></span>
+    <div id='div_ft1.12' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.12').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.12: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.13' class='none'>
+    <td ><div class='testcase'>testrun_case_13___wbxcx_013____CRM_删除广告____yes___None__None____ad_delete____post______n__adId___0_n_____yes____yes____json____0____失败______timestamp___1619083993391___status___404___error____Not_Found____message____No_message_available____path_____ad_delete____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.13')" >
+        错误</a></span>
+    <div id='div_ft1.13' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.13').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.13: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.14' class='none'>
+    <td ><div class='testcase'>testrun_case_14___wbxcx_014____CRM_编辑广告状态____yes___None__None____ad_editStatus____post______n__adId___0__n__status___0_n_____yes____yes____json____0____失败______timestamp___1619083993540___status___404___error____Not_Found____message____No_message_available____path_____ad_editStatus____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.14')" >
+        错误</a></span>
+    <div id='div_ft1.14' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.14').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.14: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.15' class='none'>
+    <td ><div class='testcase'>testrun_case_15___wbxcx_015____CRM_广告详情____yes___None__None____ad_detail____post______n__adId___0_n_____yes____yes____json____0____失败______timestamp___1619083993693___status___404___error____Not_Found____message____No_message_available____path_____ad_detail____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.15')" >
+        错误</a></span>
+    <div id='div_ft1.15' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.15').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.15: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.16' class='none'>
+    <td ><div class='testcase'>testrun_case_16___wbxcx_016____CRM_根据类型获取广告列表____yes___None__None____ad_getAdsByType____post______n__advertType______n_____yes____yes____json____0____失败______timestamp___1619083993846___status___404___error____Not_Found____message____No_message_available____path_____ad_getAdsByType____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.16')" >
+        错误</a></span>
+    <div id='div_ft1.16' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.16').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.16: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.17' class='none'>
+    <td ><div class='testcase'>testrun_case_17___wbxcx_017____CRM_法学院分页列表____yes___None__None____market_lecture_list____post______n__endDate_______n__orderBy_______n__pageNum___0__n__pageSize___0__n__sort_______n__startDate_______n__status___0__n__word______n_____yes____yes____json____0____失败______timestamp___1619083994027___status___404___error____Not_Found____message____No_message_available____path_____market_lecture_list____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.17')" >
+        错误</a></span>
+    <div id='div_ft1.17' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.17').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.17: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.18' class='none'>
+    <td ><div class='testcase'>testrun_case_18___wbxcx_018____CRM_新建法学院____yes___None__None____market_lecture_new____post______n__adId___0__n__cover___0__n__initLike___0__n__initPlay___0__n__introduce_______n__recommend___0__n__subTitle_______n__title_______n__video___0_n_____yes____yes____json____0____失败______timestamp___1619083994174___status___404___error____Not_Found____message____No_message_available____path_____market_lecture_new____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.18')" >
+        错误</a></span>
+    <div id='div_ft1.18' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.18').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.18: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.19' class='none'>
+    <td ><div class='testcase'>testrun_case_19___wbxcx_019____CRM_编辑法学院____yes___None__None____market_lecture_edit____post______n__adId___0__n__cover___0__n__initLike___0__n__initPlay___0__n__introduce_______n__lectureId___0__n__recommend___0__n__subTitle_______n__title_______n__video___0_n_____yes____yes____json____0____失败______timestamp___1619083994326___status___404___error____Not_Found____message____No_message_available____path_____market_lecture_edit____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.19')" >
+        错误</a></span>
+    <div id='div_ft1.19' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.19').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.19: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.20' class='none'>
+    <td ><div class='testcase'>testrun_case_20___wbxcx_020____CRM_法学院详情____yes___None__None____market_lecture_detail____post______n__lectureId___0_n_____yes____yes____json____0____失败______timestamp___1619083994475___status___404___error____Not_Found____message____No_message_available____path_____market_lecture_detail____</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.20')" >
+        错误</a></span>
+    <div id='div_ft1.20' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.20').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.20: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.21' class='none'>
+    <td ><div class='testcase'>testrun_case_21___wbxcx_021____小程序_广告位__n根据类型获取广告列表____yes___None__None____mnp_ad_list____post______n__advertType_______n__recommendId___0_n_____yes____yes____json____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___advertType____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_1464a256__line__1__column__12_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.21')" >
+        错误</a></span>
+    <div id='div_ft1.21' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.21').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.21: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.22' class='none'>
+    <td ><div class='testcase'>testrun_case_22___wbxcx_022____小程序_法学院详情____yes___None__None____mnp_lecture_detail____post______n__lectureId___0_n_____yes____yes____json____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___lectureId____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_3859469d__line__1__column__11_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.22')" >
+        错误</a></span>
+    <div id='div_ft1.22' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.22').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.22: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.23' class='none'>
+    <td ><div class='testcase'>testrun_case_23___wbxcx_023____小程序_点赞____yes___None__None____mnp_lecture_setLike____post______n__lectureId___0_n_____yes____yes____json____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___lectureId____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_3acdb011__line__1__column__11_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.23')" >
+        错误</a></span>
+    <div id='div_ft1.23' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.23').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.23: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.24' class='none'>
+    <td ><div class='testcase'>testrun_case_24___wbxcx_024____小程序_增加播放数____yes___None__None____mnp_lecture_setPlay____post______n__lectureId___0_n_____yes____yes____json____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___lectureId____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_1c16d011__line__1__column__11_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.24')" >
+        错误</a></span>
+    <div id='div_ft1.24' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.24').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.24: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.25' class='none'>
+    <td ><div class='testcase'>testrun_case_25___wbxcx_025____小程序_话题广场__n增加浏览数____yes___None__None____qa_setRead____post______n__id___0_n_____yes____yes____json____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___id____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_3cdfe6df__line__1__column__4_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.25')" >
+        错误</a></span>
+    <div id='div_ft1.25' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.25').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.25: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.26' class='none'>
+    <td ><div class='testcase'>testrun_case_26___wbxcx_026____小程序_问答列表____yes___None__None____qa_list____post______n__endTime_______n__my___0__n__orderBy_______n__pageNum___0__n__pageSize___0__n__searchWord_______n__sort_______n__startTime_______n__status___0_n_____yes____yes____json____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___endTime____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_3fac4912__line__1__column__9_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.26')" >
+        错误</a></span>
+    <div id='div_ft1.26' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.26').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.26: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='ft1.27' class='none'>
+    <td ><div class='testcase'>testrun_case_27___wbxcx_027____小程序_套餐列表____yes___None__None____mnp_productSet_list____post______n__distribution___0__n__isShow___0__n__memberId___0__n__orderBy_______n__pageNum___0__n__pageSize___0__n__productSetType___0__n__serviceTime___0__n__sort_______n__status___0__n__type___0_n_____yes____yes____json____0____失败______code____00004____msg______u574f__u8bf7__u6c42Unrecognized_token___distribution____was_expecting____true______false___or___null_____n_at__Source__java_io_PushbackInputStream_719b8ce4__line__1__column__14_____result___null___</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.27')" >
+        错误</a></span>
+    <div id='div_ft1.27' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.27').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.27: Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\KXYL\PycharmProjects\imooc-api-learn\imooc-api-learn\Run\test_run_ddt.py", line 54, in testrun_case
+    code = str(res['errorCode'])
+KeyError: 'errorCode'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='pt1.28' class='hiddenRow'>
+    <td><div class='testcase'>testrun_case_28__None__None__None__None__None__None__None__None__None__None__None__None__None__None_</div></td>
     <td colspan='5' align='center'><span class='status passCase'>通过</span></td>
     <td>无截图</td>
 </tr>
 
 <tr id='total_row'>
     <th>统计</th>
-    <th>10</th>
-    <th>8</th>
+    <th>28</th>
+    <th>1</th>
     <th>0</th>
-    <th>2</th>
+    <th>27</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
 </tr>
 </table>
 <script>
     showCase(1);
-    drawCircle(8, 0, 2);
+    drawCircle(1, 0, 27);
 </script>
 
 <div id='ending'>&nbsp;</div>

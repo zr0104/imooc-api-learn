@@ -1,0 +1,237 @@
+2021-04-23 16:30:39,448-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：企业体检-调查列表】
+2021-04-23 16:30:39,449-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0}
+2021-04-23 16:30:39,449-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/invest/list
+2021-04-23 16:30:39,523-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'id': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@2a982540; line: 1, column: 4]", 'result': None}
+2021-04-23 16:30:39,526-run_case_ddt.py-[line:110]-INFO - 日志信息：检查点数据2：0,返回数据：00004
+2021-04-23 16:30:39,819-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：企业体检-调查分数】
+2021-04-23 16:30:39,819-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：企业体检-调查分数】
+2021-04-23 16:30:39,820-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0, 'scoreReqDetailVos': [{'answer': '', 'id': 0}]}
+2021-04-23 16:30:39,820-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0, 'scoreReqDetailVos': [{'answer': '', 'id': 0}]}
+2021-04-23 16:30:39,829-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/invest/score
+2021-04-23 16:30:39,829-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/invest/score
+2021-04-23 16:30:39,860-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'id': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@714c043a; line: 1, column: 4]", 'result': None}
+2021-04-23 16:30:39,860-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'id': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@714c043a; line: 1, column: 4]", 'result': None}
+2021-04-23 16:30:39,861-run_case_ddt.py-[line:110]-INFO - 日志信息：检查点数据3：0,返回数据：00004
+2021-04-23 16:30:39,861-run_case_ddt.py-[line:110]-INFO - 日志信息：检查点数据3：0,返回数据：00004
+2021-04-23 16:30:40,116-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题详情】
+2021-04-23 16:30:40,116-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题详情】
+2021-04-23 16:30:40,128-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0}
+2021-04-23 16:30:40,128-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0}
+2021-04-23 16:30:40,143-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/hotspot/detail
+2021-04-23 16:30:40,143-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/hotspot/detail
+2021-04-23 16:30:40,168-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'id': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@14c62fc; line: 1, column: 4]", 'result': None}
+2021-04-23 16:30:40,168-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'id': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@14c62fc; line: 1, column: 4]", 'result': None}
+2021-04-23 16:30:40,176-run_case_ddt.py-[line:110]-INFO - 日志信息：检查点数据4：0,返回数据：00004
+2021-04-23 16:30:40,176-run_case_ddt.py-[line:110]-INFO - 日志信息：检查点数据4：0,返回数据：00004
+2021-04-23 16:30:40,514-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题列表】
+2021-04-23 16:30:40,514-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题列表】
+2021-04-23 16:30:40,519-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'show': 0, 'sort': '', 'startDate': '', 'top': 0, 'word': ''}
+2021-04-23 16:30:40,519-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'show': 0, 'sort': '', 'startDate': '', 'top': 0, 'word': ''}
+2021-04-23 16:30:40,533-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/hotspot/list
+2021-04-23 16:30:40,533-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/hotspot/list
+2021-04-23 16:30:40,574-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'endDate': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@72a90490; line: 1, column: 9]", 'result': None}
+2021-04-23 16:30:40,574-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'endDate': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@72a90490; line: 1, column: 9]", 'result': None}
+2021-04-23 16:30:40,594-run_case_ddt.py-[line:110]-INFO - 日志信息：检查点数据5：0,返回数据：00004
+2021-04-23 16:30:40,594-run_case_ddt.py-[line:110]-INFO - 日志信息：检查点数据5：0,返回数据：00004
+2021-04-23 16:30:40,880-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题创建】
+2021-04-23 16:30:40,880-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题创建】
+2021-04-23 16:30:40,894-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'attachmentId': 0, 'content': '', 'hotspot': '', 'seq': 0, 'theme': '', 'top': 0}
+2021-04-23 16:30:40,894-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'attachmentId': 0, 'content': '', 'hotspot': '', 'seq': 0, 'theme': '', 'top': 0}
+2021-04-23 16:30:40,923-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/create
+2021-04-23 16:30:40,923-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/create
+2021-04-23 16:30:40,965-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166640957, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/create'}
+2021-04-23 16:30:40,965-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166640957, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/create'}
+2021-04-23 16:30:41,103-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题详情】
+2021-04-23 16:30:41,103-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题详情】
+2021-04-23 16:30:41,115-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0}
+2021-04-23 16:30:41,115-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0}
+2021-04-23 16:30:41,146-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/detail
+2021-04-23 16:30:41,146-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/detail
+2021-04-23 16:30:41,175-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166641165, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/detail'}
+2021-04-23 16:30:41,175-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166641165, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/detail'}
+2021-04-23 16:30:41,334-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题编辑】
+2021-04-23 16:30:41,334-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题编辑】
+2021-04-23 16:30:41,374-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'attachmentId': 0, 'content': '', 'hotspot': '', 'id': 0, 'seq': 0, 'theme': '', 'top': 0}
+2021-04-23 16:30:41,374-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'attachmentId': 0, 'content': '', 'hotspot': '', 'id': 0, 'seq': 0, 'theme': '', 'top': 0}
+2021-04-23 16:30:41,398-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/edit
+2021-04-23 16:30:41,398-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/edit
+2021-04-23 16:30:41,458-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166641449, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/edit'}
+2021-04-23 16:30:41,458-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166641449, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/edit'}
+2021-04-23 16:30:41,679-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题列表】
+2021-04-23 16:30:41,679-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题列表】
+2021-04-23 16:30:41,710-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'show': 0, 'sort': '', 'startDate': '', 'top': 0, 'word': ''}
+2021-04-23 16:30:41,710-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'show': 0, 'sort': '', 'startDate': '', 'top': 0, 'word': ''}
+2021-04-23 16:30:41,743-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/list
+2021-04-23 16:30:41,743-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/list
+2021-04-23 16:30:41,808-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166641799, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/list'}
+2021-04-23 16:30:41,808-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166641799, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/list'}
+2021-04-23 16:30:41,988-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题显示】
+2021-04-23 16:30:41,988-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-热点话题显示】
+2021-04-23 16:30:42,010-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0, 'show': 0}
+2021-04-23 16:30:42,010-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0, 'show': 0}
+2021-04-23 16:30:42,043-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/show
+2021-04-23 16:30:42,043-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/hotspot/show
+2021-04-23 16:30:42,088-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166642076, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/show'}
+2021-04-23 16:30:42,088-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166642076, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/hotspot/show'}
+2021-04-23 16:30:42,270-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-广告分页列表】
+2021-04-23 16:30:42,270-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-广告分页列表】
+2021-04-23 16:30:42,310-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'rsa': '', 'searchWord': '', 'sign': '', 'sort': '', 'startDate': '', 'status': 0, 'type': 0, 'userId4Service': 0}
+2021-04-23 16:30:42,310-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'rsa': '', 'searchWord': '', 'sign': '', 'sort': '', 'startDate': '', 'status': 0, 'type': 0, 'userId4Service': 0}
+2021-04-23 16:30:42,359-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/list
+2021-04-23 16:30:42,359-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/list
+2021-04-23 16:30:42,439-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166642428, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/list'}
+2021-04-23 16:30:42,439-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166642428, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/list'}
+2021-04-23 16:30:42,638-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-新建广告】
+2021-04-23 16:30:42,638-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-新建广告】
+2021-04-23 16:30:42,674-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'advertTitle': '', 'advertType': '', 'attachmentId': 0, 'seq': 0, 'url': '', 'urlType': ''}
+2021-04-23 16:30:42,674-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'advertTitle': '', 'advertType': '', 'attachmentId': 0, 'seq': 0, 'url': '', 'urlType': ''}
+2021-04-23 16:30:42,735-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/new
+2021-04-23 16:30:42,735-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/new
+2021-04-23 16:30:42,813-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166642804, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/new'}
+2021-04-23 16:30:42,813-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166642804, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/new'}
+2021-04-23 16:30:43,007-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-编辑广告】
+2021-04-23 16:30:43,007-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-编辑广告】
+2021-04-23 16:30:43,060-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'advertTitle': '', 'advertType': '', 'attachmentId': 0, 'seq': 0, 'url': '', 'urlType': ''}
+2021-04-23 16:30:43,060-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'advertTitle': '', 'advertType': '', 'attachmentId': 0, 'seq': 0, 'url': '', 'urlType': ''}
+2021-04-23 16:30:43,124-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/edit
+2021-04-23 16:30:43,124-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/edit
+2021-04-23 16:30:43,208-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166643198, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/edit'}
+2021-04-23 16:30:43,208-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166643198, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/edit'}
+2021-04-23 16:30:43,417-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-删除广告】
+2021-04-23 16:30:43,417-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-删除广告】
+2021-04-23 16:30:43,456-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0}
+2021-04-23 16:30:43,456-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0}
+2021-04-23 16:30:43,500-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/delete
+2021-04-23 16:30:43,500-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/delete
+2021-04-23 16:30:43,572-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166643560, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/delete'}
+2021-04-23 16:30:43,572-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166643560, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/delete'}
+2021-04-23 16:30:43,796-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-编辑广告状态】
+2021-04-23 16:30:43,796-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-编辑广告状态】
+2021-04-23 16:30:43,848-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'status': 0}
+2021-04-23 16:30:43,848-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'status': 0}
+2021-04-23 16:30:43,905-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/editStatus
+2021-04-23 16:30:43,905-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/editStatus
+2021-04-23 16:30:43,975-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166643961, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/editStatus'}
+2021-04-23 16:30:43,975-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166643961, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/editStatus'}
+2021-04-23 16:30:44,172-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-广告详情】
+2021-04-23 16:30:44,172-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-广告详情】
+2021-04-23 16:30:44,223-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0}
+2021-04-23 16:30:44,223-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0}
+2021-04-23 16:30:44,285-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/detail
+2021-04-23 16:30:44,285-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/detail
+2021-04-23 16:30:44,377-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166644365, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/detail'}
+2021-04-23 16:30:44,377-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166644365, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/detail'}
+2021-04-23 16:30:44,589-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-根据类型获取广告列表】
+2021-04-23 16:30:44,589-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-根据类型获取广告列表】
+2021-04-23 16:30:44,640-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'advertType': ''}
+2021-04-23 16:30:44,640-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'advertType': ''}
+2021-04-23 16:30:44,702-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/getAdsByType
+2021-04-23 16:30:44,702-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/ad/getAdsByType
+2021-04-23 16:30:44,785-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166644774, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/getAdsByType'}
+2021-04-23 16:30:44,785-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166644774, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/ad/getAdsByType'}
+2021-04-23 16:30:45,013-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-法学院分页列表】
+2021-04-23 16:30:45,013-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-法学院分页列表】
+2021-04-23 16:30:45,080-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'sort': '', 'startDate': '', 'status': 0, 'word': ''}
+2021-04-23 16:30:45,080-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endDate': '', 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'sort': '', 'startDate': '', 'status': 0, 'word': ''}
+2021-04-23 16:30:45,175-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/list
+2021-04-23 16:30:45,175-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/list
+2021-04-23 16:30:45,276-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166645264, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/list'}
+2021-04-23 16:30:45,276-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166645264, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/list'}
+2021-04-23 16:30:45,484-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-新建法学院】
+2021-04-23 16:30:45,484-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-新建法学院】
+2021-04-23 16:30:45,559-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'cover': 0, 'initLike': 0, 'initPlay': 0, 'introduce': '', 'recommend': 0, 'subTitle': '', 'title': '', 'video': 0}
+2021-04-23 16:30:45,559-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'cover': 0, 'initLike': 0, 'initPlay': 0, 'introduce': '', 'recommend': 0, 'subTitle': '', 'title': '', 'video': 0}
+2021-04-23 16:30:45,650-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/new
+2021-04-23 16:30:45,650-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/new
+2021-04-23 16:30:45,773-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166645762, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/new'}
+2021-04-23 16:30:45,773-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166645762, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/new'}
+2021-04-23 16:30:46,008-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-编辑法学院】
+2021-04-23 16:30:46,008-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-编辑法学院】
+2021-04-23 16:30:46,090-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'cover': 0, 'initLike': 0, 'initPlay': 0, 'introduce': '', 'lectureId': 0, 'recommend': 0, 'subTitle': '', 'title': '', 'video': 0}
+2021-04-23 16:30:46,090-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'adId': 0, 'cover': 0, 'initLike': 0, 'initPlay': 0, 'introduce': '', 'lectureId': 0, 'recommend': 0, 'subTitle': '', 'title': '', 'video': 0}
+2021-04-23 16:30:46,186-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/edit
+2021-04-23 16:30:46,186-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/edit
+2021-04-23 16:30:46,307-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166646296, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/edit'}
+2021-04-23 16:30:46,307-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166646296, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/edit'}
+2021-04-23 16:30:46,558-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-法学院详情】
+2021-04-23 16:30:46,558-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：CRM-法学院详情】
+2021-04-23 16:30:46,625-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:46,625-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:46,703-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/detail
+2021-04-23 16:30:46,703-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/market/lecture/detail
+2021-04-23 16:30:46,794-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166646785, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/detail'}
+2021-04-23 16:30:46,794-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'timestamp': 1619166646785, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/market/lecture/detail'}
+2021-04-23 16:30:47,016-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-广告位-
+根据类型获取广告列表】
+2021-04-23 16:30:47,016-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-广告位-
+根据类型获取广告列表】
+2021-04-23 16:30:47,126-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'advertType': '', 'recommendId': 0}
+2021-04-23 16:30:47,126-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'advertType': '', 'recommendId': 0}
+2021-04-23 16:30:47,236-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/ad/list
+2021-04-23 16:30:47,236-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/ad/list
+2021-04-23 16:30:47,360-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'advertType': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@51eaca63; line: 1, column: 12]", 'result': None}
+2021-04-23 16:30:47,360-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'advertType': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@51eaca63; line: 1, column: 12]", 'result': None}
+2021-04-23 16:30:47,464-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:47,464-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:47,885-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-法学院详情】
+2021-04-23 16:30:47,885-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-法学院详情】
+2021-04-23 16:30:47,986-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:47,986-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:48,080-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/lecture/detail
+2021-04-23 16:30:48,080-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/lecture/detail
+2021-04-23 16:30:48,217-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'lectureId': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@14eb60fd; line: 1, column: 11]", 'result': None}
+2021-04-23 16:30:48,217-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'lectureId': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@14eb60fd; line: 1, column: 11]", 'result': None}
+2021-04-23 16:30:48,323-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:48,323-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:48,696-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-点赞】
+2021-04-23 16:30:48,696-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-点赞】
+2021-04-23 16:30:48,798-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:48,798-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:48,910-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/lecture/setLike
+2021-04-23 16:30:48,910-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/lecture/setLike
+2021-04-23 16:30:49,027-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'lectureId': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@6447e9c1; line: 1, column: 11]", 'result': None}
+2021-04-23 16:30:49,027-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'lectureId': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@6447e9c1; line: 1, column: 11]", 'result': None}
+2021-04-23 16:30:49,129-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:49,129-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:49,493-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-增加播放数】
+2021-04-23 16:30:49,493-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-增加播放数】
+2021-04-23 16:30:49,613-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:49,613-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'lectureId': 0}
+2021-04-23 16:30:49,738-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/lecture/setPlay
+2021-04-23 16:30:49,738-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/lecture/setPlay
+2021-04-23 16:30:49,873-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'lectureId': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@feac9cb; line: 1, column: 11]", 'result': None}
+2021-04-23 16:30:49,873-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'lectureId': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@feac9cb; line: 1, column: 11]", 'result': None}
+2021-04-23 16:30:49,990-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:49,990-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:50,337-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-话题广场-
+增加浏览数】
+2021-04-23 16:30:50,337-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-话题广场-
+增加浏览数】
+2021-04-23 16:30:50,454-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0}
+2021-04-23 16:30:50,454-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'id': 0}
+2021-04-23 16:30:50,583-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/qa/setRead
+2021-04-23 16:30:50,583-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/qa/setRead
+2021-04-23 16:30:50,746-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'id': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@361a2d02; line: 1, column: 4]", 'result': None}
+2021-04-23 16:30:50,746-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'id': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@361a2d02; line: 1, column: 4]", 'result': None}
+2021-04-23 16:30:50,861-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:50,861-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:51,232-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-问答列表】
+2021-04-23 16:30:51,232-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-问答列表】
+2021-04-23 16:30:51,346-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endTime': '', 'my': 0, 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'searchWord': '', 'sort': '', 'startTime': '', 'status': 0}
+2021-04-23 16:30:51,346-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'endTime': '', 'my': 0, 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'searchWord': '', 'sort': '', 'startTime': '', 'status': 0}
+2021-04-23 16:30:51,487-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/qa/list
+2021-04-23 16:30:51,487-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/qa/list
+2021-04-23 16:30:51,621-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'endTime': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@5401d940; line: 1, column: 9]", 'result': None}
+2021-04-23 16:30:51,621-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'endTime': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@5401d940; line: 1, column: 9]", 'result': None}
+2021-04-23 16:30:51,736-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:51,736-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:52,149-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-套餐列表】
+2021-04-23 16:30:52,149-run_case_ddt.py-[line:37]-INFO - 日志信息：【开始执行测试用例：小程序-套餐列表】
+2021-04-23 16:30:52,348-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'distribution': 0, 'isShow': 0, 'memberId': 0, 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'productSetType': 0, 'serviceTime': 0, 'sort': '', 'status': 0, 'type': 0}
+2021-04-23 16:30:52,348-run_case_ddt.py-[line:40]-INFO - 日志信息：请求的参数：{'distribution': 0, 'isShow': 0, 'memberId': 0, 'orderBy': '', 'pageNum': 0, 'pageSize': 0, 'productSetType': 0, 'serviceTime': 0, 'sort': '', 'status': 0, 'type': 0}
+2021-04-23 16:30:52,567-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/productSet/list
+2021-04-23 16:30:52,567-run_case_ddt.py-[line:56]-INFO - 日志信息：请求的url：/mnp/productSet/list
+2021-04-23 16:30:52,793-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'distribution': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@6678842d; line: 1, column: 14]", 'result': None}
+2021-04-23 16:30:52,793-run_case_ddt.py-[line:67]-INFO - 日志信息：返回结果：{'code': '00004', 'msg': "坏请求Unrecognized token 'distribution': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@6678842d; line: 1, column: 14]", 'result': None}
+2021-04-23 16:30:52,995-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：
+2021-04-23 16:30:52,995-run_case_ddt.py-[line:136]-INFO - 日志信息：检查点数据:实际结果&预期结果False：

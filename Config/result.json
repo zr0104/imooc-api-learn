@@ -1,101 +1,441 @@
-{"http://test.passport.be.lvdatong.com/sso/login":[
-    {
-        "sucess": {
-            "code":"0",
-            "msg":"OK",
-            "result":
-            {
-                "sessionId":"46571D9F3D25429987472332351E3B62","isLogined":1
-            }
-        }
-    }
-],
-"http://test.passport.be.lvdatong.com/sso/generateTicket":[
-    {
-        "sucess":{
-            "code":"0",
-            "msg":"OK",
-            "result":
-            {
-                "ticket":"7EE7FEA6F6EC46548AD2E422F1CAEB2C","rememberMe":0
-            }
-        }
-    }
-],
-"security/getToken":[
-    {
-        "sucess": {
-            "code":"0",
-            "msg":"OK",
-            "result":
-            {
-                "token":"D84FC45C1F8041B0988F6CE49ACA3DD9","rememberMe":0,"rememberMeSeconds":null,"loginExpireSeconds":null,"uuid":"09F6B3E6356E4881D6494F9A60C19E22"
-            }
-        }
-    }
-],
-"customer/addCustomer":[
-    {
-        "sucess": {
-            "code":"0",
-            "msg":"OK",
-            "result":560162
-    }
-    }
-],
-"customer/detail":[
-    {
-        "sucess": {
-            "code":"0",
-            "msg":"OK",
-            "result":
-            {
-                "customerId":560162,"type":0,"name":"TEST法务咨询有限公司00078","shortName":"","cusSource":2,"cusType":1,"province":3624,"city":3677,"district":3685,"nameProvince":"广东","nameCity":"广州市","nameDistrict":"天河区","address":"详细地址详细地址详细地址888","license":"123565656550078","legalPerson":"","tradeId":null,"tradeName":null,"employees":null,"sales":null,"email":"","phone":"","fax":"","remark":"","cusStatus":1,"followDate":null,"followTimes":null,"createDate":"2021-04-15","signDate":null,"modifyDate":1618469792000,"organizationId":1,"organizationName":"广东万邦法务科技有限公司",
-                "customerContacts":
-                [
-                    {"contactId":555268,"contactName":"Sen78","sex":1,"mobile":"13246889978","job":"","dept":"","position":"","telephone":"","qq":"","email":"","wechat":"","type":1,"contactRole":"2","customerId":null}
-                ],
-                "customerParticipants":
-                [
-                    {"participantId":842850,"customerId":560162,"userId":2633,"name":"全桂森","type":3}
-                ],
-                "highSeasDate":"2021-04-16","lostDate":null,"creator":2633,"creatorName":"全桂森","creatorPhone":"13246821387","sendHighSeasNotice":null,"expireDate":"2021-04-16","cusDealStatus":1,"serviceStatus":null,"sourceChannel":0,"businessScope":"","customerAccountInfos":[],"serviceTeamInfo":"：","servicesInfos":[],"memberMobiles":[],"companyType":"","anotherPhone":"","registeredCapital":"","website":"","establishedDate":null,"highSeasReason":null,"highSeasRemark":null,"getCustomerDate":null,"canEditMaster":1,"master":null,"refereeMobile":null,"masterMobile":null
-            }
-        }
-    }
-],
-"productSet/selectAllProductSet":[
-    {
-        "sucess": {
-            "code":"0",
-            "msg":"OK",
-            "result":[
-                {"id":205,"price":"0.01","name":"常年法律顾问黄金版（一年）","remark":"企业在经营交易过程中，对常见的劳资、合同、债务与股权等方面进行结构性的梳理、整合、风控并提供法律意见，规避企业经营风险，最大程度减少可能遭受的损失。 1、劳资模块 在企业遇到可能会发生的劳动纠纷或已经发生劳动纠纷时，提供专业的法律意见，降低企业损失，以获取更大的利益。 2、合同模块 起草、审核与企业经营发展相关的各类合同，包括但不限于合同条款审查、合同变更、解除、终止等事项的风险。 3、债务催收 审阅分析债权文件、完善债权证据保全、发送律师函、出具催收报告。专业律师不限款数免费为企业催收。 4、股权模块 设计合理的团队股权架构，定制科学优质的员工股权激励协议、股权分配计划等，为企业发展奠定基础。"},
-                {"id":206,"price":"0.01","name":"常年法律顾问白金版（一年）","remark":"企业在经营交易过程中，对常见的劳资、合同、债务与股权等方面进行结构性的梳理、整合、风控并提供法律意见，规避企业经营风险，最大程度减少可能遭受的损失。 1、劳资模块 在企业遇到可能会发生的劳动纠纷或已经发生劳动纠纷时，提供专业的法律意见，降低企业损失，以获取更大的利益。 2、合同模块 起草、审核与企业经营发展相关的各类合同，包括但不限于合同条款审查、合同变更、解除、终止等事项的风险。 3、债务催收 审阅分析债权文件、完善债权证据保全、发送律师函、出具催收报告。专业律师不限款数免费为企业催收。 4、股权模块 设计合理的团队股权架构，定制科学优质的员工股权激励协议、股权分配计划等，为企业发展奠定基础。"},
-                {"id":215,"price":"0.02","name":"常年法律顾问黄金版（一年）+2份法律文本","remark":""},
-                {"id":227,"price":"0.10","name":"个人黄金会员","remark":""},{"id":235,"price":"2800.00","name":"测试套餐 铂金版","remark":""},
-                {"id":238,"price":"2800.00","name":"常法黄金套餐（含有升级套餐）","remark":""},
-                {"id":229,"price":"9800.00","name":"测试套餐 黄金版","remark":""},
-                {"id":207,"price":"15800.00","name":"常年法律顾问钻石版（一年）","remark":"企业在经营交易过程中，对常见的劳资、合同、债务与股权等方面进行结构性的梳理、整合、风控并提供法律意见，规避企业经营风险，最大程度减少可能遭受的损失。 1、劳资模块 在企业遇到可能会发生的劳动纠纷或已经发生劳动纠纷时，提供专业的法律意见，降低企业损失，以获取更大的利益。 2、合同模块 起草、审核与企业经营发展相关的各类合同，包括但不限于合同条款审查、合同变更、解除、终止等事项的风险。 3、债务催收 审阅分析债权文件、完善债权证据保全、发送律师函、出具催收报告。专业律师不限款数免费为企业催收。 4、股权模块 设计合理的团队股权架构，定制科学优质的员工股权激励协议、股权分配计划等，为企业发展奠定基础。 5、知识产权 为企业提供知识产权维权服务，并免费代理知识产权官司。"},
-                {"id":208,"price":"23800.00","name":"常年法律顾问钻石版（两年）","remark":"企业在经营交易过程中，对常见的劳资、合同、债务与股权等方面进行结构性的梳理、整合、风控并提供法律意见，规避企业经营风险，最大程度减少可能遭受的损失。\n1、劳资模块\n在企业遇到可能会发生的劳动纠纷或已经发生劳动纠纷时，提供专业的法律意见，降低企业损失，以获取更大的利益。\n2、合同模块\n起草、审核与企业经营发展相关的各类合同，包括但不限于合同条款审查、合同变更、解除、终止等事项的风险。\n3、债务催收\n审阅分析债权文件、完善债权证据保全、发送律师函、出具催收报告。专业律师不限款数免费为企业催收。\n4、股权模块\n设计合理的团队股权架构，定制科学优质的员工股权激励协议、股权分配计划等，为企业发展奠定基础。\n5、知识产权\n为企业提供知识产权维权服务，并免费代理知识产权官司。"},
-                {"id":209,"price":"29800.00","name":"常年法律顾问钻石版（三年）","remark":"企业在经营交易过程中，对常见的劳资、合同、债务与股权等方面进行结构性的梳理、整合、风控并提供法律意见，规避企业经营风险，最大程度减少可能遭受的损失。\n1、劳资模块\n在企业遇到可能会发生的劳动纠纷或已经发生劳动纠纷时，提供专业的法律意见，降低企业损失，以获取更大的利益。\n2、合同模块\n起草、审核与企业经营发展相关的各类合同，包括但不限于合同条款审查、合同变更、解除、终止等事项的风险。\n3、债务催收\n审阅分析债权文件、完善债权证据保全、发送律师函、出具催收报告。专业律师不限款数免费为企业催收。\n4、股权模块\n设计合理的团队股权架构，定制科学优质的员工股权激励协议、股权分配计划等，为企业发展奠定基础。\n5、知识产权\n为企业提供知识产权维权服务，并免费代理知识产权官司。"},
-                {"id":218,"price":"29800.00","name":"法务部12月常年法律顾问钻石版（三年）赠送10份法律文本","remark":""},{"id":228,"price":"29800.00","name":"测试常年法务套餐黄金版（一年）0.01","remark":""},
-                {"id":210,"price":"50000.00","name":"常年法律顾问星耀版","remark":"企业在经营交易过程中，对常见的劳资、合同、债务与股权等方面进行结构性的梳理、整合、风控并提供法律意见，规避企业经营风险，最大程度减少可能遭受的损失。\n1、咨询模块\n由专业律师提供咨询服务。\n2、劳资模块\n修改完善公司劳动人事管理制度、劳动合同、劳动纠纷等公司运营过程中产生的法律文本。\n3、合约模块\n起草、审核与公司经营发展相关的各类合同，包括但不限于合同条款审查、合同变更、解除、违约的风险把控等。\n4、货款催收模块\n审阅分析与债权相关的各类文件；与债务人电话沟通债务相关的事宜；发送催收函或律师函并跟进两轮；电话催收；汇报催收进展并出具催收报告。\n5、企业股权模块\n从公司成立到注销全过程中的规章制度、股权变更因公司运营产生的合同等相关事项的风险把控、法律文本起草审核、后期跟进服务等。\n6、增值服务模块\n为诉讼、仲裁事务提供法律咨询；免费推荐诉讼律师；每年统一安排集中式讲座等。"},
-                {"id":211,"price":"80000.00","name":"常年法律顾问至尊版","remark":"企业在经营交易过程中，对常见的劳资、合同、债务与股权等方面进行结构性的梳理、整合、风控并提供法律意见，规避企业经营风险，最大程度减少可能遭受的损失。\n1、咨询模块\n由专业律师提供咨询服务。\n2、劳资模块\n修改完善公司劳动人事管理制度、劳动合同、劳动纠纷等公司运营过程中产生的法律文本。\n3、合约模块\n起草、审核与公司经营发展相关的各类合同，包括但不限于合同条款审查、合同变更、解除、违约的风险把控等。\n4、货款催收模块\n审阅分析与债权相关的各类文件；与债务人电话沟通债务相关的事宜；发送催收函或律师函并跟进两轮；电话催收；汇报催收进展并出具催收报告。\n5、企业股权模块\n从公司成立到注销全过程中的规章制度、股权变更因公司运营产生的合同等相关事项的风险把控、法律文本起草审核、后期跟进服务等。\n6、增值服务模块\n为诉讼、仲裁事务提供法律咨询；免费推荐诉讼律师；每年统一安排集中式讲座等。"}
-            ]
-        }
-    }
-],
-"order/create":[
-    {
-        "sucess": {
-            "code":"0",
-            "msg":"OK",
-            "result":
-            {
-                "orderId":3116,"orderCode":"77482386","price":"9800.00"
-            }
-        }
-    }
-]
+{
+	"/invest/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"id": 0,
+			"investDetailVos": [{
+				"answer1": "",
+				"answer2": "",
+				"id": 0,
+				"question": "",
+				"segment": ""
+			}],
+			"name": ""
+		}
+	}],
+	"/invest/score": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"explainations": [{
+				"explainations": [{
+					"explaination": "",
+					"question": ""
+				}],
+				"segment": ""
+			}],
+			"score": 0
+		}
+	}],
+	"/hotspot/detail": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"attachmentId": 0,
+			"content": "",
+			"createDate": "",
+			"hotspot": "",
+			"id": 0,
+			"seq": 0,
+			"show": 0,
+			"theme": "",
+			"top": 0,
+			"updateDate": ""
+		}
+	}],
+	"/hotspot/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"endRow": 0,
+			"hasNextPage": true,
+			"hasPreviousPage": true,
+			"isFirstPage": true,
+			"isLastPage": true,
+			"list": [{
+				"attachmentId": 0,
+				"content": "",
+				"createDate": "",
+				"hotspot": "",
+				"id": 0,
+				"seq": 0,
+				"show": 0,
+				"theme": "",
+				"top": 0,
+				"updateDate": ""
+			}],
+			"navigateFirstPage": 0,
+			"navigateLastPage": 0,
+			"navigatePages": 0,
+			"navigatepageNums": [],
+			"nextPage": 0,
+			"pageNum": 0,
+			"pageSize": 0,
+			"pages": 0,
+			"prePage": 0,
+			"size": 0,
+			"startRow": 0,
+			"total": 0
+		}
+	}],
+	"/market/hotspot/create": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/market/hotspot/edit": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/market/hotspot/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"endRow": 0,
+			"hasNextPage": true,
+			"hasPreviousPage": true,
+			"isFirstPage": true,
+			"isLastPage": true,
+			"list": [{
+				"attachmentId": 0,
+				"content": "",
+				"createDate": "",
+				"hotspot": "",
+				"id": 0,
+				"seq": 0,
+				"show": 0,
+				"theme": "",
+				"top": 0,
+				"updateDate": ""
+			}],
+			"navigateFirstPage": 0,
+			"navigateLastPage": 0,
+			"navigatePages": 0,
+			"navigatepageNums": [],
+			"nextPage": 0,
+			"pageNum": 0,
+			"pageSize": 0,
+			"pages": 0,
+			"prePage": 0,
+			"size": 0,
+			"startRow": 0,
+			"total": 0
+		}
+	}],
+	"/market/hotspot/show": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/ad/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"endRow": 0,
+			"hasNextPage": true,
+			"hasPreviousPage": true,
+			"isFirstPage": true,
+			"isLastPage": true,
+			"list": [{
+				"adId": 0,
+				"advertTitle": "",
+				"advertType": "",
+				"attachmentVo": {
+					"attachmentId": 0,
+					"baseName": "",
+					"code": "",
+					"duration": 0,
+					"fileId": 0,
+					"filePath": "",
+					"filename": "",
+					"moduleName": "",
+					"oriFilename": "",
+					"size": "",
+					"suffixName": "",
+					"summary": "",
+					"uploadDate": ""
+				},
+				"createDate": "",
+				"seq": 0,
+				"status": 0,
+				"url": "",
+				"urlType": ""
+			}],
+			"navigateFirstPage": 0,
+			"navigateLastPage": 0,
+			"navigatePages": 0,
+			"navigatepageNums": [],
+			"nextPage": 0,
+			"pageNum": 0,
+			"pageSize": 0,
+			"pages": 0,
+			"prePage": 0,
+			"size": 0,
+			"startRow": 0,
+			"total": 0
+		}
+	}],
+	"/ad/new": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/ad/edit": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/ad/delete": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/ad/editStatus": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/ad/detail": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/ad/getAdsByType": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"endRow": 0,
+			"hasNextPage": true,
+			"hasPreviousPage": true,
+			"isFirstPage": true,
+			"isLastPage": true,
+			"list": [{
+				"adId": 0,
+				"advertTitle": ""
+			}],
+			"navigateFirstPage": 0,
+			"navigateLastPage": 0,
+			"navigatePages": 0,
+			"navigatepageNums": [],
+			"nextPage": 0,
+			"pageNum": 0,
+			"pageSize": 0,
+			"pages": 0,
+			"prePage": 0,
+			"size": 0,
+			"startRow": 0,
+			"total": 0
+		}
+	}],
+	"/market/lecture/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/market/lecture/new": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/market/lecture/edit": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/market/lecture/detail": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/mnp/ad/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": [{
+			"adId": 0,
+			"advertTitle": "",
+			"advertType": "",
+			"attachmentVo": {
+				"attachmentId": 0,
+				"baseName": "",
+				"code": "",
+				"duration": 0,
+				"fileId": 0,
+				"filePath": "",
+				"filename": "",
+				"moduleName": "",
+				"oriFilename": "",
+				"size": "",
+				"suffixName": "",
+				"summary": "",
+				"uploadDate": ""
+			},
+			"createDate": "",
+			"seq": 0,
+			"status": 0,
+			"url": "",
+			"urlType": ""
+		}]
+	}],
+	"/mnp/lecture/detail": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/mnp/lecture/setLike": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/mnp/lecture/setPlay": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/qa/setRead": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {}
+	}],
+	"/qa/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"endRow": 0,
+			"hasNextPage": true,
+			"hasPreviousPage": true,
+			"isFirstPage": true,
+			"isLastPage": true,
+			"list": [{
+				"actualCount": 0,
+				"createDate": "",
+				"firstCaseSourceType": "",
+				"firstCaseSourceTypeId": 0,
+				"id": 0,
+				"isDetailNull": 0,
+				"question": "",
+				"questionAnswerDetailList": [{
+					"content": "",
+					"createDate": "",
+					"memberId": 0,
+					"memberName": "",
+					"questionAnswerId": 0,
+					"type": "",
+					"updateDate": ""
+				}],
+				"questionMemberName": "",
+				"secondCaseSourceType": "",
+				"secondCaseSourceTypeId": 0,
+				"type": ""
+			}],
+			"navigateFirstPage": 0,
+			"navigateLastPage": 0,
+			"navigatePages": 0,
+			"navigatepageNums": [],
+			"nextPage": 0,
+			"pageNum": 0,
+			"pageSize": 0,
+			"pages": 0,
+			"prePage": 0,
+			"size": 0,
+			"startRow": 0,
+			"total": 0
+		}
+	}],
+	"/mnp/productSet/list": [{
+		"code": "0",
+		"msg": "OK",
+		"result": {
+			"endRow": 0,
+			"hasNextPage": true,
+			"hasPreviousPage": true,
+			"isFirstPage": true,
+			"isLastPage": true,
+			"list": [{
+				"applicableScene": "",
+				"bannerAttachment": {
+					"attachmentId": 0,
+					"baseName": "",
+					"code": "",
+					"duration": 0,
+					"fileId": 0,
+					"filePath": "",
+					"filename": "",
+					"moduleName": "",
+					"oriFilename": "",
+					"size": "",
+					"suffixName": "",
+					"summary": "",
+					"uploadDate": ""
+				},
+				"bonusContent": [],
+				"contractUrl": "",
+				"count": 0,
+				"distribution": 0,
+				"distributionAttachment": {
+					"attachmentId": 0,
+					"baseName": "",
+					"code": "",
+					"duration": 0,
+					"fileId": 0,
+					"filePath": "",
+					"filename": "",
+					"moduleName": "",
+					"oriFilename": "",
+					"size": "",
+					"suffixName": "",
+					"summary": "",
+					"uploadDate": ""
+				},
+				"distributionInfo": "",
+				"hasBonus": 0,
+				"hotSale": 0,
+				"id": 0,
+				"isPromoted": 0,
+				"name": "",
+				"oriPrice": 0,
+				"price": 0,
+				"productDetailRespVos": [{
+					"detail": "",
+					"free": 0,
+					"name": "",
+					"productNum": 0,
+					"unlimitAmount": 0
+				}],
+				"promotionContent": "",
+				"promotionPrice": 0,
+				"reducePrice": 0,
+				"serviceAttachment": {
+					"attachmentId": 0,
+					"baseName": "",
+					"code": "",
+					"duration": 0,
+					"fileId": 0,
+					"filePath": "",
+					"filename": "",
+					"moduleName": "",
+					"oriFilename": "",
+					"size": "",
+					"suffixName": "",
+					"summary": "",
+					"uploadDate": ""
+				},
+				"serviceDetail": "",
+				"serviceTime": 0
+			}],
+			"navigateFirstPage": 0,
+			"navigateLastPage": 0,
+			"navigatePages": 0,
+			"navigatepageNums": [],
+			"nextPage": 0,
+			"pageNum": 0,
+			"pageSize": 0,
+			"pages": 0,
+			"prePage": 0,
+			"size": 0,
+			"startRow": 0,
+			"total": 0
+		}
+	}]
 }
